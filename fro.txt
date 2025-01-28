@@ -1,0 +1,4 @@
+Explanation:
+git rm --cached <file> removes a file from the staging area, meaning it will no longer be included in the next commit.
+The file remains in the working directory, so it is not physically deleted from your system.
+Once removed from the staged area, Git no longer tracks changes to this file, so it becomes untracked.
